@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    color: white
+}
+
+body {
+    background-color: rgb(121, 189, 245);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    padding-bottom: 5px;
+    
+}
+.borde {
+    border: 2px;
+    padding: 15px;
+}
+
+#baner {
+    width: 100%;
+    margin: auto;
+
+}
+
+#menu a:hover{
+    color: white;
+    background-color: rgb(74, 154, 207);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(9, 8, 78, 0.815);
+}
+  
+li {
+    float: left;
+    border-right: 1px solid cornflowerblue;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+#quienes {
+    display: flex;
+}
+.sec-one {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    background-color: rgba(16, 6, 43, 0.685);
+    clear: both;
+}
+
+@media only screen and (max-width: 700px) {
+    .sec-one {
+        flex-direction: column;
+        margin: auto;
+        display: flex;
+    }
+}
+
+h2 {
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    background-color: rgba(16, 6, 43, 0.685);
+}
+
+#albumsfotos{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    background-color: rgba(16, 6, 43, 0.685);
+}
+
+#foto {
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    #albumsfotos {
+        align-content: stretch; 
+        margin: auto;
+        display: flex;
+    }
+}
+footer {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+}
